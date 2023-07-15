@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Ysabeau+Office:wght@300;400;500;600;700&display=swap");
+
+.banner {
+  margin-top: -6px;
+  margin-left: -4px;
+
+  background-color: #cfdede;
+  width: 100%;
+  height: 115vh;
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  width: 85%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 10px;
+
+  padding-left: 110px;
+  margin: 0 10px;
+}
+.logo {
+  width: 20%;
+  cursor: pointer;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+  position: relative;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(211, 83, 83);
+}
+
+.navbar ul li a:hover {
+  color: rgb(42, 159, 189);
+}
+.navbar ul li::after {
+  content: "";
+  background: rgb(42, 159, 189);
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 3px;
+  width: 0%;
+
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+.photo1 {
+  border-radius: 250px;
+  width: 500px;
+  height: 500px;
+  opacity: 7;
+  margin-right: 200px;
+}
+.photo1:hover {
+  opacity: 0.89;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+.button {
+  border-radius: 125px;
+  width: 15%;
+  height: 40px;
+  background: transparent;
+  background-color: rgb(211, 83, 83);
+  text-transform: uppercase;
+  font-size: 13px;
+  outline-style: none;
+  border-style: none;
+  color: blanchedalmond;
+  position: relative;
+  top: 150px;
+  right: 510px;
+  font-family: "Ysabeau Office", sans-serif;
+  font-weight: 400;
+  border: solid 2px;
+  transition: 0.7s;
+}
+
+.button:hover {
+  color: rgb(70, 133, 184);
+  transform: scale(1);
+  background: transparent;
+  border: solid 2px rgb(211, 83, 83);
+}
+
+.info {
+  margin-bottom: 90px;
+}
+
+.info h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 80px;
+  color: rgb(70, 133, 184);
+}
+.info span {
+  position: relative;
+  top: 50px;
+  right: 5px;
+  font-size: 40px;
+  /*color: rgb(201, 184, 131);*/
+  color: rgb(70, 133, 184);
+}
+.info-p {
+  line-height: 40px;
+  color: rgb(211, 83, 83);
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+}
+.banner h3 {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  text-transform: uppercase;
+  color: rgba(14, 1, 1, 0.801);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.about {
+  margin-top: -6px;
+  margin-left: -4px;
+
+  background-color: rgb(255, 255, 255);
+
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.button2 {
+  background-color: #cfdede;
+  text-align: center;
+}
+.con {
+  border-radius: 125px;
+  width: 15%;
+  height: 40px;
+  background: transparent;
+  text-transform: uppercase;
+  font-size: 13px;
+  background-color: rgb(70, 133, 184);
+  color: white;
+  outline-style: ridge;
+  border-style: none;
+  font-family: "Ysabeau Office", sans-serif;
+  font-weight: 800;
+  position: relative;
+  top: 15px;
+  left: 0px;
+  transition: all 0.5s;
+}
+.con2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button2:hover .con2 {
+  padding-right: 8px;
+}
+.button2:hover .arrow {
+  opacity: 1;
+  right: 0;
+}
+
+.arrow {
+  opacity: 0;
+}
+.arrow3 {
+  opacity: 0;
+}
+.arrow2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.arrow2:hover .arrow3 {
+  padding-right: 10px;
+
+  opacity: 1;
+  right: 0;
+}
+
+.photo3 {
+  width: 25%;
+
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: 19px;
+  right: 100px;
+}
+.photo2 {
+  width: 20%;
+  height: 60%;
+
+  position: relative;
+  left: 280px;
+  top: 50px;
+  border: none;
+}
+.words {
+  width: 30%;
+  position: relative;
+  left: 650px;
+  bottom: 300px;
+}
+.words p {
+  width: 50ch;
+  line-height: 20px;
+}
+.words h1 {
+  text-transform: uppercase;
+  line-height: 40px;
+  font-family: monospace;
+  font-weight: lighter;
+}
+.micha {
+  font-family: "Satisfy", cursive;
+
+  color: rgb(70, 133, 184);
+}
+.btn1 {
+  width: 200px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bolder;
+  border: 2px solid rgb(209, 185, 48);
+  background: transparent;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+
+  overflow: hidden;
+}
+.btn1 span {
+  background: rgb(212, 188, 48);
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+  z-index: -1;
+}
+.btn1:hover span {
+  width: 100%;
+}
+.btn1:hover {
+  border: none;
+}
+
+.our-menu {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(115, 120, 184);
+}
+.our-menu2 {
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+  line-height: 30px;
+}
+.our-menu2 h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.our-menu2 p {
+  font-weight: lighter;
+  font-size: smaller;
+}
+.items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 40px;
+}
+.items p {
+  line-height: 40px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.items .item1 {
+  font-size: 30px;
+}
+.items .item2 {
+  text-decoration: underline;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.items .dishs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.items .dishs img {
+  transition: 0.5s;
+  width: 14em;
+}
+.items .dishs img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+label {
+  position: relative;
+}
+input[type="text"] {
+  outline: none;
+  border: none;
+  width: 450px;
+  height: 50px;
+  padding: 0 17px;
+  margin-left: 40px;
+
+  background-color: #cfdede;
+}
+.footer3 button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 30px;
+  margin-right: 20px;
+  color: rgb(115, 120, 184);
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: bolder;
+  box-shadow: none;
+  background-color: #cfdede;
+}
+.footer3 :hover button {
+  color: gray;
+}
+
+.footer2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  margin-left: 200px;
+  padding-left: 100px;
+  margin-top: 150px;
+}
+
+.footerphoto {
+  margin-top: -100px;
+  padding-left: 60px;
+  width: 80px;
+}
+.footerwords {
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: #6655b1;
+}
+
+.footer {
+  margin-bottom: 100px;
+}
+.contact-us1 {
+  background-color: #cfdede;
+
+  width: 100%;
+  height: 50vh;
+}
+.contact-us {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contact-us ul li {
+  list-style: none;
+  line-height: 40px;
+  position: relative;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.contact-us li a {
+  text-decoration: none;
+  color: #6655b1;
+}
+.contact-us li a:hover {
+  color: gray;
+}
+.div2 {
+  background-color: #b2bdbd;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.div3 ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 30px;
+  position: relative;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.div3 ul li a {
+  text-decoration: none;
+  color: #6655b1;
+}
+.btn {
+  height: 10px;
+  text-align: center;
+  padding-top: 50px;
+}
+hr {
+  border-style: dotted;
+  border-radius: 30px;
+  border-width: 10px;
+  border-bottom: 0;
+  width: 10%;
+  color: #8476c5;
+  margin-bottom: 60px;
+}
+hr:hover {
+  color: rgb(119, 161, 196);
+}
